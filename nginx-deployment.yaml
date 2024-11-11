@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: nginx-app
 spec:
-  relicas: 2
+  relicas: 1
   selector:
     matchLabels:
       app: nginx-app
