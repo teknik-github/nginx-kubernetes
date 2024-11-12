@@ -1,4 +1,4 @@
-apiVersion: apps/v2
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-app
@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: nginx:latest
+        image: nginx:stable-perl
         resources:
           limits:
             memory: "128Mi"
