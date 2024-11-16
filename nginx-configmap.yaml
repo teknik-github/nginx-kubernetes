@@ -10,6 +10,6 @@ data:
       <title>Welcome to Nginx v2</title>
     </head>
     <body>
-      <h1>Hello, World from Nginx Bug v2!</h1>
+      <h1>Hello, World from Nginx Bug-fix v2!</h1>
     </body>
     </html>
