@@ -7,9 +7,9 @@ data:
     <!DOCTYPE html>
     <html>
     <head>
-      <title>Welcome to Nginx v1</title>
+      <title>Welcome to Nginx v2</title>
     </head>
     <body>
-      <h1>Hello, World from Nginx v1!</h1>
+      <h1>Hello, World from Nginx Bug v2!</h1>
     </body>
     </html>
