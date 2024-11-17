@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: nginx:stable-perl
+        image: teknikhub/web-v1:latest
         ports:
         - containerPort: 80
         volumeMounts:
