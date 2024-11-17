@@ -44,10 +44,10 @@ handleFileUpload($targetDirectory);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload File ke /mnt/nfs bug</title>
+    <title>Upload File ke /mnt/nfs aman</title>
 </head>
 <body>
-    <h1>Upload File bug</h1>
+    <h1>Upload File v4 aman</h1>
     <form action="" method="POST" enctype="multipart/form-data">
         <label for="file">Pilih file untuk diunggah:</label>
         <input type="file" name="file" id="file" required>
