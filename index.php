@@ -47,7 +47,7 @@ handleFileUpload($targetDirectory);
     <title>Upload File ke /mnt/nfs bug</title>
 </head>
 <body>
-    <h1>Upload File ke /mnt/nfs</h1>
+    <h1>Upload File ke /mnt/nfs bug</h1>
     <form action="" method="POST" enctype="multipart/form-data">
         <label for="file">Pilih file untuk diunggah:</label>
         <input type="file" name="file" id="file" required>
