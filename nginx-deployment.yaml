@@ -14,12 +14,12 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: teknikhub/web-v1:latest
+        image: teknikhub/web-v1-php:latest
         ports:
         - containerPort: 80
         volumeMounts:
         - name: nginx-html
-          mountPath: /usr/share/nginx/html
+          mountPath: /mnt/nfs
       volumes:
       - name: nginx-html
         nfs:
