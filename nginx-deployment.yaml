@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-app-v2-fix
+  name: nginx-app-nfs
 spec:
   replicas: 1
   selector:
