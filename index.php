@@ -44,7 +44,7 @@ handleFileUpload($targetDirectory);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload File ke /mnt/nfs</title>
+    <title>Upload File ke /mnt/nfs bug</title>
 </head>
 <body>
     <h1>Upload File ke /mnt/nfs</h1>

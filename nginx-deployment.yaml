@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-app
-        image: teknikhub/web-v1-php:latest
+        image: teknikhub/web-v1-php:v2
         ports:
         - containerPort: 80
         volumeMounts:
